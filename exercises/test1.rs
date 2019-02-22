@@ -10,6 +10,13 @@
 // Put your function here!
 // fn ..... {
 
+fn calculateprice(num: u32) -> u32 {
+    match num > 40 {
+        true => num,
+        _ => num * 2
+    }
+}
+
 // Don't modify this function!
 #[test]
 fn verify_test() {
